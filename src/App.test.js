@@ -10,6 +10,6 @@ test.skip('renders learn react link', () => {
 //create a new test that checks the page is displaying "Hello World"
 test('renders Hello World', () => {
   render(<App />);
-  const helloWorldElement = screen.getByText(/Hello World/i);
+  const helloWorldElement = screen.getByText("Firebase Hosting Setup Complete");
   expect(helloWorldElement).toBeInTheDocument();
 });
